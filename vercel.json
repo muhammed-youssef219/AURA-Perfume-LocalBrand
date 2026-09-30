@@ -1,0 +1,16 @@
+{
+  "outputDirectory": ".vercel/output/static",
+  "builds": [
+    {
+      "src": "Frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": ".vercel/output/static"
+      }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/.vercel/output/static/$1" }
+  ]
+}
+
