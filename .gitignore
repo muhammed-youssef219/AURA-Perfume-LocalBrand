@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Build & Cache
+dist/
+dist-ssr/
+.output/
+Frontend/.output/
+.vinxi/
+.tanstack/
+Frontend/.tanstack/
+.nitro/
+Frontend/.nitro/
+.wrangler/
+Frontend/.wrangler/
+
+# Env & Secrets
+*.local
+.env
+Frontend/.env
+Backend/.env
+
+# Editor & OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
