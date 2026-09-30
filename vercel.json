@@ -1,6 +1,0 @@
-{
-  "buildCommand": "npm --prefix Frontend run build",
-  "outputDirectory": "Frontend/.output/public",
-  "installCommand": "npm --prefix Frontend install",
-  "framework": null
-}

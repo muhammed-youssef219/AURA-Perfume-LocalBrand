@@ -2,11 +2,11 @@
   "name": "aura-localbrand",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "npm --prefix Frontend run dev",
-    "build": "npm --prefix Frontend run build",
+    "build": "node build.js",
     "preview": "npm --prefix Frontend run preview",
     "server": "npm --prefix Backend run start"
   }
 }
-
